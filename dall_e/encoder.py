@@ -91,3 +91,4 @@ class Encoder(nn.Module):
 			raise ValueError('input must have dtype torch.float32')
 
 		return self.blocks(x)
+	
